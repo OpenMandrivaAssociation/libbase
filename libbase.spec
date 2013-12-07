@@ -1,7 +1,7 @@
 Summary:	JFree Base Services
 Name:		libbase
 Version:	1.1.6
-Release:	3
+Release:	4
 License:	LGPLv2+
 Group:		System/Libraries 
 Url:		http://reporting.pentaho.org/
