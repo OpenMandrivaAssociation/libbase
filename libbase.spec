@@ -28,7 +28,11 @@ library is the root library for all Pentaho-Reporting projects.
 %package javadoc
 Summary: Javadoc for %{name}
 
+%if 0%{?fedora}
 Requires: %{name} = %{version}-%{release}
+%else
+Requires: %{name} = %{EVRD}
+%endif
 Requires: jpackage-utils
 
 %description javadoc
